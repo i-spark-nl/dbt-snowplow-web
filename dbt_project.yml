@@ -122,6 +122,8 @@ models:
       +tags: "base"
       manifest:
         +schema: "snowplow_manifest"
+        snowplow_web_base_sessions_lifecycle_manifest:
+          snowplow_optimize: false
       scratch:
         +schema: "scratch"
         +tags: "scratch"
